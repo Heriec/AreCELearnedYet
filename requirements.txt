@@ -1,0 +1,32 @@
+# 主要依赖
+contexttimer==0.3
+pandas==1.0.3
+numpy==1.18.1
+docopt==0.6
+psycopg2-binary==2.8.4
+scikit-learn==0.23.0
+torch==1.5.0
+sqlparse==0.3.1
+dask==1.2.0
+toolz==0.9.0
+cloudpickle==1.2.1
+tables==3.5.1
+bloom-filter==1.3
+python-dotenv==0.13.0
+jupyter==1.0.0
+jupyterlab==2.1.4
+seaborn==0.11.0
+scipy==1.4.1
+xgboost==1.1.1
+ray>=0.8.7,<0.9.0
+Cython>=0.29.21,<0.30.0
+pomegranate>=0.13.4,<0.14.0
+pyodbc>=4.0.30,<5.0.0
+mysql-connector-python>=8.0.21,<9.0.0
+PyQt5==5.15.1
+
+# 开发依赖（可选：可以放在另一个 dev-requirements.txt 文件中）
+mypy==0.770
+black==19.10b0
+pylint==2.4.4
+ipython==7.13.0
